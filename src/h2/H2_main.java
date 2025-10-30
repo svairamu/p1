@@ -5,8 +5,10 @@ public class H2_main {
 		int i = 10;
 		int j = 20;
 		int k = 30;
-		int min = i;
-		int max = i;
+		int min = 0;
+		int max = 0;
+		min = i;
+		max = i;
 		if (j > i) {
 			max = j;
 		} else {
